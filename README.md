@@ -38,3 +38,10 @@ Public datasets, cross-border B2B business directory documentation, author-monet
 - Contributor Monetization & Balance Hub: [https://uss.eu.com/u/](https://uss.eu.com/u/)
 - About & Editorial Policy: [https://uss.eu.com/about/](https://uss.eu.com/about/) · [https://uss.eu.com/editorial-policy/](https://uss.eu.com/editorial-policy/)
 - Telegram Channel: [https://t.me/usseucom](https://t.me/usseucom)
+
+## Live EU AI Act Readiness Checker & November 2026 Dataset (`v1.1.0`)
+
+- **Interactive 2 Dec 2026 SaaS Compliance Checker (GitHub Pages):** [https://us-group-hub.github.io/uss-eu-transatlantic-tools/](https://us-group-hub.github.io/uss-eu-transatlantic-tools/)
+- **Machine-Readable Timeline (JSON):** [`data/eu-ai-act-omnibus-2026-1744.json`](data/eu-ai-act-omnibus-2026-1744.json) — Regulation (EU) 2026/1744 Digital Omnibus milestones & Enterprise vs. SME penalty ceilings.
+- **Full Transatlantic Guide:** [EU AI Act 2 December 2026 Deadline for US & EU SaaS — USS.EU.COM](https://uss.eu.com/news/eu-ai-act-2-december-2026-deadline-regulation-2026-1744-saas-guide/)
+- **EU-27 VAT & OSS Calculator:** [https://uss.eu.com/eu-vat-oss-calculator/](https://uss.eu.com/eu-vat-oss-calculator/)
