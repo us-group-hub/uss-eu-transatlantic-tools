@@ -1,0 +1,66 @@
+{
+  "schema_version": "2026.11",
+  "updated": "2026-11-23",
+  "regulation": "Regulation (EU) 2026/1744 (Digital Omnibus on AI amending Regulation (EU) 2024/1689)",
+  "source_guide": "https://uss.eu.com/news/eu-ai-act-2-december-2026-deadline-regulation-2026-1744-saas-guide/",
+  "tools": {
+    "eu_vat_calculator": "https://uss.eu.com/eu-vat-oss-calculator/",
+    "entity_matrix": "https://uss.eu.com/eu-company-formation-matrix/",
+    "business_encyclopedia": "https://uss.eu.com/all-listings/"
+  },
+  "milestones": [
+    {
+      "date": "2025-02-02",
+      "status": "in_force",
+      "scope": "Core Article 5 prohibited AI practices & Article 4 AI literacy"
+    },
+    {
+      "date": "2025-08-02",
+      "status": "in_force",
+      "scope": "General-Purpose AI (GPAI) model obligations & EU AI Office"
+    },
+    {
+      "date": "2026-08-02",
+      "status": "in_force",
+      "scope": "Article 50 transparency obligations & EU/national market surveillance enforcement"
+    },
+    {
+      "date": "2026-12-02",
+      "status": "imminent",
+      "scope": "End of Art. 111(4)/50(2) machine-readable marking grace period for pre-Aug 2026 generative AI + 2 new Art. 5 bans (intimate deepfakes & CSAM)"
+    },
+    {
+      "date": "2027-12-02",
+      "status": "deferred_by_omnibus",
+      "scope": "Standalone Annex III high-risk AI systems (HR, credit scoring, education, biometrics)"
+    },
+    {
+      "date": "2028-08-02",
+      "status": "deferred_by_omnibus",
+      "scope": "High-risk AI embedded in regulated products (Annex I medical devices, machinery, aviation)"
+    }
+  ],
+  "penalty_tiers": [
+    {
+      "tier": "Article 5 Prohibited Practices",
+      "max_eur": 35000000,
+      "max_global_turnover_pct": 7.0,
+      "enterprise_rule": "higher_of",
+      "sme_rule": "lower_of"
+    },
+    {
+      "tier": "Article 50 Transparency / Provider / High-Risk Duties",
+      "max_eur": 15000000,
+      "max_global_turnover_pct": 3.0,
+      "enterprise_rule": "higher_of",
+      "sme_rule": "lower_of"
+    },
+    {
+      "tier": "Misleading Information to Regulators",
+      "max_eur": 7500000,
+      "max_global_turnover_pct": 1.0,
+      "enterprise_rule": "higher_of",
+      "sme_rule": "lower_of"
+    }
+  ]
+}
