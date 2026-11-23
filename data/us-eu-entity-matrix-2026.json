@@ -1,0 +1,39 @@
+{
+  "dataset": "USS.EU.COM 2026 US <-> EU Company Formation Matrix",
+  "live_matrix": "https://uss.eu.com/eu-company-formation-matrix/",
+  "jurisdictions": [
+    {
+      "jurisdiction": "Estonia (O\u00dc)",
+      "retained_cit_pct": 0.0,
+      "distributed_cit_pct": 22.0,
+      "annual_compliance_eur": "1800-2800",
+      "best_for": "Remote SaaS & digital founders reinvesting profits"
+    },
+    {
+      "jurisdiction": "Cyprus (Ltd)",
+      "headline_cit_pct": 12.5,
+      "ip_box_effective_pct": 2.5,
+      "annual_compliance_eur": "4500-6500",
+      "best_for": "IP-heavy software & non-dom dividend planning"
+    },
+    {
+      "jurisdiction": "Poland (Sp. z o.o.)",
+      "small_cit_pct": 9.0,
+      "standard_cit_pct": 19.0,
+      "annual_compliance_eur": "2500-4200",
+      "best_for": "Engineering hubs & Central European operations"
+    },
+    {
+      "jurisdiction": "Ireland (Ltd)",
+      "trading_cit_pct": 12.5,
+      "us_treaty": true,
+      "annual_compliance_eur": "5500-8500",
+      "best_for": "US enterprise & VC-backed European headquarters"
+    },
+    {
+      "jurisdiction": "US Delaware (C-Corp / LLC)",
+      "federal_corp_tax_pct": 21.0,
+      "best_for": "European firms raising US VC, signing Fortune 500 contracts, or hiring US W-2 staff"
+    }
+  ]
+}

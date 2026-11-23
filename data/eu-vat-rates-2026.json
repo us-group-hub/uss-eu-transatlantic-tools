@@ -1,0 +1,144 @@
+{
+  "dataset": "USS.EU.COM 2026 EU-27 Standard VAT Rates & OSS Reference",
+  "live_calculator": "https://uss.eu.com/eu-vat-oss-calculator/",
+  "b2b_reverse_charge_rule": "0% VAT when buyer provides valid EU VAT ID verified via European Commission VIES.",
+  "non_eu_b2c_threshold_eur": 0,
+  "intra_eu_micro_threshold_eur": 10000,
+  "member_states": [
+    {
+      "iso": "AT",
+      "country": "Austria",
+      "standard_vat_pct": 20.0
+    },
+    {
+      "iso": "BE",
+      "country": "Belgium",
+      "standard_vat_pct": 21.0
+    },
+    {
+      "iso": "BG",
+      "country": "Bulgaria",
+      "standard_vat_pct": 20.0
+    },
+    {
+      "iso": "HR",
+      "country": "Croatia",
+      "standard_vat_pct": 25.0
+    },
+    {
+      "iso": "CY",
+      "country": "Cyprus",
+      "standard_vat_pct": 19.0
+    },
+    {
+      "iso": "CZ",
+      "country": "Czechia",
+      "standard_vat_pct": 21.0
+    },
+    {
+      "iso": "DK",
+      "country": "Denmark",
+      "standard_vat_pct": 25.0
+    },
+    {
+      "iso": "EE",
+      "country": "Estonia",
+      "standard_vat_pct": 24.0
+    },
+    {
+      "iso": "FI",
+      "country": "Finland",
+      "standard_vat_pct": 25.5
+    },
+    {
+      "iso": "FR",
+      "country": "France",
+      "standard_vat_pct": 20.0
+    },
+    {
+      "iso": "DE",
+      "country": "Germany",
+      "standard_vat_pct": 19.0
+    },
+    {
+      "iso": "GR",
+      "country": "Greece",
+      "standard_vat_pct": 24.0
+    },
+    {
+      "iso": "HU",
+      "country": "Hungary",
+      "standard_vat_pct": 27.0
+    },
+    {
+      "iso": "IE",
+      "country": "Ireland",
+      "standard_vat_pct": 23.0
+    },
+    {
+      "iso": "IT",
+      "country": "Italy",
+      "standard_vat_pct": 22.0
+    },
+    {
+      "iso": "LV",
+      "country": "Latvia",
+      "standard_vat_pct": 21.0
+    },
+    {
+      "iso": "LT",
+      "country": "Lithuania",
+      "standard_vat_pct": 21.0
+    },
+    {
+      "iso": "LU",
+      "country": "Luxembourg",
+      "standard_vat_pct": 17.0
+    },
+    {
+      "iso": "MT",
+      "country": "Malta",
+      "standard_vat_pct": 18.0
+    },
+    {
+      "iso": "NL",
+      "country": "Netherlands",
+      "standard_vat_pct": 21.0
+    },
+    {
+      "iso": "PL",
+      "country": "Poland",
+      "standard_vat_pct": 23.0
+    },
+    {
+      "iso": "PT",
+      "country": "Portugal",
+      "standard_vat_pct": 23.0
+    },
+    {
+      "iso": "RO",
+      "country": "Romania",
+      "standard_vat_pct": 21.0
+    },
+    {
+      "iso": "SK",
+      "country": "Slovakia",
+      "standard_vat_pct": 23.0
+    },
+    {
+      "iso": "SI",
+      "country": "Slovenia",
+      "standard_vat_pct": 22.0
+    },
+    {
+      "iso": "ES",
+      "country": "Spain",
+      "standard_vat_pct": 21.0
+    },
+    {
+      "iso": "SE",
+      "country": "Sweden",
+      "standard_vat_pct": 25.0
+    }
+  ]
+}
