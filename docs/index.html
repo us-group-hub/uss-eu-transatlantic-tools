@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EU AI Act (2 Dec 2026) &amp; US–EU SaaS Compliance Toolkit — USS.EU.COM Open Data</title>
+<meta name="description" content="Interactive EU AI Act Regulation (EU) 2026/1744 compliance readiness checklist, penalty calculator, and US-EU SaaS VAT/Entity resources.">
+<style>
+  :root{--bg:#0b1120;--card:#111827;--bd:#1f2937;--fg:#f8fafc;--mut:#94a3b8;--acc:#60a5fa;--ok:#34d399;--warn:#fbbf24}
+  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:32px 20px 60px}
+  h1{font-size:clamp(1.6rem,3vw,2.25rem);margin:0 0 10px}
+  p.lead{color:var(--mut);font-size:1.04rem;margin:0 0 24px}
+  .card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:22px;margin:18px 0}
+  .chk{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border-radius:10px;background:#0f172a;border:1px solid var(--bd);margin:8px 0;cursor:pointer}
+  .chk input{margin-top:4px;transform:scale(1.2);accent-color:#34d399}
+  .score{font-size:1.35rem;font-weight:800;color:var(--warn);margin-top:12px}
+  a{color:var(--acc);text-decoration:none;font-weight:600} a:hover{text-decoration:underline}
+  ul.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;list-style:none;padding:0;margin:12px 0 0}
+  ul.links li{background:#0f172a;border:1px solid var(--bd);border-radius:10px;padding:12px 14px}
+  .badge{display:inline-block;padding:3px 9px;border-radius:999px;background:#78350f;color:#fde68a;font-size:12px;font-weight:700;margin-bottom:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">Regulation (EU) 2026/1744 &bull; Deadline: 2 December 2026</span>
+  <h1>US &amp; EU SaaS Compliance Readiness Checker</h1>
+  <p class="lead">Open-source compliance checklist for the <strong>2 December 2026</strong> EU AI Act Digital Omnibus deadline, maintained by <a href="https://uss.eu.com/news/eu-ai-act-2-december-2026-deadline-regulation-2026-1744-saas-guide/">USS.EU.COM</a>.</p>
+
+  <div class="card">
+    <h2 style="margin:0 0 10px;font-size:1.15rem;">Interactive 6-Point SaaS Self-Audit</h2>
+    <label class="chk"><input type="checkbox" class="c"><span><strong>1. AI System Inventory:</strong> Mapped all features where we act as provider vs. API deployer for EU users.</span></label>
+    <label class="chk"><input type="checkbox" class="c"><span><strong>2. Machine-Readable Provenance (Art. 50(2)):</strong> C2PA metadata or detectable watermarking enabled on legacy generative outputs before 2 Dec 2026.</span></label>
+    <label class="chk"><input type="checkbox" class="c"><span><strong>3. Chatbot &amp; Synthetic UI Notices (Art. 50):</strong> Clear user-facing AI interaction disclosure live across EU sessions.</span></label>
+    <label class="chk"><input type="checkbox" class="c"><span><strong>4. Article 5 Hard Guardrails:</strong> Moderation blocks workplace emotion tracking, social scoring, and Dec 2026 intimate deepfake/CSAM prohibitions.</span></label>
+    <label class="chk"><input type="checkbox" class="c"><span><strong>5. Article 4 AI Literacy Log:</strong> Dated staff training record covering model limits, hallucination risk, and GDPR alignment.</span></label>
+    <label class="chk"><input type="checkbox" class="c"><span><strong>6. Annex III 2027 Roadmap:</strong> Gap analysis underway if software touches HR, credit scoring, education, or biometrics (due 2 Dec 2027).</span></label>
+    <div class="score" id="score">Readiness: 0 / 6 (Action Required Before 2 Dec 2026)</div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin:0 0 8px;font-size:1.15rem;">Transatlantic Playbooks, Calculators &amp; Open Data</h2>
+    <ul class="links">
+      <li><a href="https://uss.eu.com/news/eu-ai-act-2-december-2026-deadline-regulation-2026-1744-saas-guide/">EU AI Act 2 Dec 2026 Complete SaaS Guide &rarr;</a></li>
+      <li><a href="https://uss.eu.com/eu-vat-oss-calculator/">2026 EU-27 VAT &amp; Non-Union OSS Calculator &rarr;</a></li>
+      <li><a href="https://uss.eu.com/eu-company-formation-matrix/">US–EU Company Formation Matrix &rarr;</a></li>
+      <li><a href="https://uss.eu.com/all-listings/">US–EU Business Encyclopedia Directory &rarr;</a></li>
+      <li><a href="https://github.com/us-group-hub/uss-eu-transatlantic-tools/blob/main/data/eu-ai-act-omnibus-2026-1744.json">Machine-Readable JSON Timeline &rarr;</a></li>
+      <li><a href="https://uss.eu.com/add-listing/">Add Your Verified Company Dossier &rarr;</a></li>
+    </ul>
+  </div>
+</div>
+<script>
+const boxes=[...document.querySelectorAll('.c')],el=document.getElementById('score');
+function upd(){
+  const n=boxes.filter(b=>b.checked).length;
+  el.style.color=n===6?'#34d399':(n>=4?'#60a5fa':'#fbbf24');
+  el.textContent='Readiness: '+n+' / 6 — '+(n===6?'Ready for 2 Dec 2026 Enforcement':'Complete Remaining Controls Before 2 Dec 2026');
+}
+boxes.forEach(b=>b.onchange=upd);
+</script>
+</body>
+</html>
